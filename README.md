@@ -12,14 +12,19 @@ An About us page
 An enquiries page
 A products page
 A Contacts page
+
 Changelog: Begun with the homepage and gave the rundown of the business.
 Made an about us page for the businesses origins.
 Made a product page to show the products sold.
 Made a contact page for communication purposes.
 Made a enquiries page for any questions the visitors may have.
+Part 2
+I have used CSS code on the pages of the website giving the right colours and visual feel of the company.
+Added more products to the product page.
+Added more information into the About us page along with images.
+Added more contacts on the contact us page.
 
-Comments on the code:
-I have used <header> and <h1> for the headings of the website, <a href= for the navigation between the web pages under the <footer. prompt. <img> for the images on the page along with <br/> for any of the spaces in the code. And i used the <table> to make the textboxes on the enquiries page.
+
 
 Reference List:
 Shoprite, 2026. Homepage. https://www.shoprite.co.za/ [accessed 13 August]
