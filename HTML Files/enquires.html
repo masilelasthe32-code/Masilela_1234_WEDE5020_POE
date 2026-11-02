@@ -5,10 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="enquires.css">
+     <script src="validation.js"></script>
 </head>
 
  <header>
        <h1>Enquiries</h1>
+       <br/>
+       <br/>
+        <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="about_us.html">About Us</a>
+        <a href="products.html">Products</a>
+        <a href="enquires.html">Enquiries</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <br/>
+    <br/>
+
      
 <body>
     <div class="content">
@@ -22,19 +35,21 @@
  Insert your contact form here, including fields for name, email, subject, and message. Make sure to include a submit button for users to send their inquiries.
  <br/>
 <br/>
- <table></table width="150%"><tr><td>Name:</td><td><input type="text" name="name" required></td></tr>
- <br/>
- <br/>
-<tr><td>Email:</td><td><input type="email" name="email" required></td></tr>
- <br/>
- <br/>
+<form id="enquiry-form" action="submit_enquiry.php" method="post">
+  <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
 
-<tr><td>Subject:</td><td><input type="text" name="subject" required></td></tr>
- <br/>
- <br/>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
 
-<tr><td>Message:</td><td><textarea name="message" required></textarea></td></tr><table width="500%"><tr><td colspan="2" align="center"><input type="submit" value="Submit"></td></tr></table>
-  <div>
+    <label for="subject">Subject:</label>
+    <input type="text" id="subject" name="subject" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <button type="submit">Submit</button>
+</form>
 
   
  

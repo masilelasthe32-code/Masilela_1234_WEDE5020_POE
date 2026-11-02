@@ -11,53 +11,196 @@
        <h1>Products</h1>
        <br/>
        <br/>
+        <div class="topnav">
+          <a href="index.html">Home</a>
+          <a href="about_us.html">About Us</a>
+          <a href="products.html">Products</a>
+          <a href="enquires.html">Enquiries</a>
+          <a href="contact.html">Contact</a>
+       </div>
+       <br/>
+       <br/>
+</header>
        <p>Our wide range of products, carefully selected to meet your needs and preferences. From everyday essentials to specialty items, we have something for everyone. Explore our offerings and discover the quality and value that sets us apart.</p>
      
 <body>
    <div class="items">
-    <img src="https://catalog.sixty60.co.za/v2/files/6a59c547548867f7df6c8446?width=320&height=320" alt="" width="150" height="150">
+    <div class="column">
+    <img src="https://catalog.sixty60.co.za/v2/files/6a59c547548867f7df6c8446?width=320&height=320" alt="" width="150" height="150"
+    onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
          <p>Vigor Coffee Mug 350ml (Colour May Vary)</p>
          R29,99
          <br/>
          <br/>
-
-         <img src="https://catalog.sixty60.co.za/v2/files/6a5f8395b8312eaf144f46c6?width=320&height=320" alt="" width="150" height="150">
+         </div>
+       <div class="items">
+        <div class="column">
+         <img src="https://catalog.sixty60.co.za/v2/files/6a5f8395b8312eaf144f46c6?width=320&height=320" alt="" width="150" height="150"
+         onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
          <p>Ritebrand Macaroni 500g</p>
             R14,99
             <br/>
             <br/>
-             <img src="https://catalog.sixty60.co.za/v2/files/6a59e5f5e1e36a4be12a19b2?width=568&height=568" alt="" width="150" height="150" side="right">
+            </div>
+       <div class="items">
+        <div class="column">
+             <img src="https://catalog.sixty60.co.za/v2/files/6a59e5f5e1e36a4be12a19b2?width=568&height=568" alt="" width="150" height="150" side="right"
+             onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
          <p> Excella Sunflower oil 2kg</p>
          R89,99
          <br/>
          <br/>
-
-         <img src="https://catalog.sixty60.co.za/v2/files/6a59439e50dd11c9a9ff58da?width=568&height=568" alt="" width="150" height="150" side="left">
+        </div>
+       <div class="items">
+        <div class="column">
+         <img src="https://catalog.sixty60.co.za/v2/files/6a59439e50dd11c9a9ff58da?width=568&height=568" alt="" width="150" height="150" side="left"
+         onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
          <p>Ritebrand smooth Peanut Butter 2kg</p>
             R34,99
             <br/>
             <br/>
-         <img src="https://catalog.sixty60.co.za/v2/files/6a5eba5534a9096aafb199d3?width=568&height=568" alt="" width="150" height="150" side="right">
+             </div>
+         <img src="https://catalog.sixty60.co.za/v2/files/6a5eba5534a9096aafb199d3?width=568&height=568" alt="" width="150" height="150" side="right"
+         onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
         <p>Baby Soft Fresh White 2 Ply Toilet Tissue Roll 9 Pack</p>
         R94,99
         <br/>
         <br/>
-        <img src="https://catalog.sixty60.co.za/v2/files/6a5de792adeaba570f944b03?width=568&height=568" alt="" width="150" height="150" side="left">
+         </div>
+        <img src="https://catalog.sixty60.co.za/v2/files/6a5de792adeaba570f944b03?width=568&height=568" alt="" width="150" height="150" side="left"
+         onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
         <p>Goldi Chicken Frozen Chicken Mixed Portions with Brine-Based Mixture 5kg</p>
          R179,99
          <br/>
          <br/>
-         <img src="https://catalog.sixty60.co.za/v2/files/6a5f79052571480667da2672?width=568&height=568" alt="" width="150" height="150" side="right">
+         <img src="https://catalog.sixty60.co.za/v2/files/6a5f79052571480667da2672?width=568&height=568" alt="" width="150" height="150" side="right"
+         onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
          <p>Kellogg's Corn Flakes 1kg</p>
          R54,99
          <br/>
          <br/>
-         <img src="https://catalog.sixty60.co.za/v2/files/6a5f4199524b881f7e357215?width=568&height=568" alt="" width="150" height="150" side="left">
+          </div>
+         <img src="https://catalog.sixty60.co.za/v2/files/6a5f4199524b881f7e357215?width=568&height=568" alt="" width="150" height="150" side="left"
+         onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
          <p>Xssentials ST11 Black 2-Slice Sandwich Maker 700-800W </p>
          R199,99
          <br/>
          <br/>
          <div>
+           </div>
+
+           <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+          
+              <div class="mySlides">
+                <div class="numbertext">1 / 8</div>
+                <img src="https://catalog.sixty60.co.za/v2/files/6a59c547548867f7df6c8446?width=320&height=320" style="width:100%">
+              </div>
+          
+              <div class="mySlides">
+                <div class="numbertext">2 / 8</div>
+                <img src="https://catalog.sixty60.co.za/v2/files/6a5f8395b8312eaf144f46c6?width=320&height=320" style="width:100%">
+              </div>
+          
+              <div class="mySlides">
+                <div class="numbertext">3 / 8</div>
+                <img src="https://catalog.sixty60.co.za/v2/files/6a59e5f5e1e36a4be12a19b2?width=568&height=568" style="width:100%">
+              </div>
+          
+              <div class="mySlides">
+                <div class="numbertext">4 / 8</div>
+                <img src="https://catalog.sixty60.co.za/v2/files/6a59439e50dd11c9a9ff58da?width=568&height=568" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">5 / 8</div>
+                <img src="https://catalog.sixty60.co.za/v2/files/6a5eba5534a9096aafb199d3?width=568&height=568" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">6 / 8</div>
+                <img src="https://catalog.sixty60.co.za/v2/files/6a5de792adeaba570f944b03?width=568&height=568" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">7 / 8</div>
+                <img src="https://catalog.sixty60.co.za/v2/files/6a5f79052571480667da2672?width=568&height=568" style="width:100%">
+              </div>
+
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              
+              <div class="caption-container">
+                <p id="Items"></p>
+              </div>
+
+              <div class="column">
+                <img class="demo cursor" src="https://catalog.sixty60.co.za/v2/files/6a59c547548867f7df6c8446?width=320&height=320" style="width:100%" onclick="currentSlide(1)" alt="Vigor Coffee Mug 350ml (Colour May Vary)">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="https://catalog.sixty60.co.za/v2/files/6a5f8395b8312eaf144f46c6?width=320&height=320" style="width:100%" onclick="currentSlide(2)" alt="Ritebrand Macaroni 500g">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="https://catalog.sixty60.co.za/v2/files/6a59e5f5e1e36a4be12a19b2?width=568&height=568" style="width:100%" onclick="currentSlide(3)" alt="Excella Sunflower oil 2kg">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="https://catalog.sixty60.co.za/v2/files/6a59439e50dd11c9a9ff58da?width=568&height=568" style="width:100%" onclick="currentSlide(4)" alt="Ritebrand smooth Peanut Butter 2kg">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="https://catalog.sixty60.co.za/v2/files/6a5eba5534a9096aafb199d3?width=568&height=568" style="width:100%" onclick="currentSlide(5)" alt="Baby Soft Fresh White 2 Ply Toilet Tissue Roll 9 Pack">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="https://catalog.sixty60.co.za/v2/files/6a5de792adeaba570f944b03?width=568&height=568" style="width:100%" onclick="currentSlide(6)" alt="Goldi Chicken Frozen Chicken Mixed Portions with Brine-Based Mixture 5kg">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="https://catalog.sixty60.co.za/v2/files/6a5f79052571480667da2672?width=568&height=568" style="width:100%" onclick="currentSlide(7)" alt="Kellogg's Corn Flakes 1kg">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="https://catalog.sixty60.co.za/v2/files/6a5f4199524b881f7e357215?width=568&height=568" style="width:100%" onclick="currentSlide(8)" alt="Xssentials ST11 Black 2-Slice Sandwich Maker 700-800W">
+              </div>
+            </div>
+
+            <script>
+              function openModal() {
+                document.getElementById("myModal").style.display = "block";
+              }
+
+              function closeModal() {
+                document.getElementById("myModal").style.display = "none";
+              }
+
+              var slideIndex = 1;
+              showSlides(slideIndex);
+
+              function plusSlides(n) {
+                showSlides(slideIndex += n);
+              }
+
+              function currentSlide(n) {
+                showSlides(slideIndex = n);
+              }
+
+              function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("demo");
+                var captionText = document.getElementById("Items");
+                if (n > slides.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";
+                dots[slideIndex-1].className += " active";
+                captionText.innerHTML = dots[slideIndex-1].alt;
+              }
+
+
+            </script>
 
 
    <footer></footer>
@@ -89,3 +232,5 @@
       }
    
 
+</style>
+<body>
